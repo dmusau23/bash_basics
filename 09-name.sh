@@ -2,10 +2,10 @@
 
 # look up ip addresses of various search engines
 
-servers="ggc.edu facebook.com cnn.com x.com"
+servers="ggc.edu facebook.com cnn.com x.com france24.fr"
 
 for server in $servers; do
-    ping -c4 $server
+    ping -c3 $server
     echo "----------------------------"
 done
 
